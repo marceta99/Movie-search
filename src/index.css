@@ -1,0 +1,145 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+body{
+  background-color: #223342;
+}
+header{
+  padding: 50px 15px 0px ;
+}
+header h1{
+  color: white;  
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center; 
+}
+
+.search-container{
+  padding: 20px;
+  display: flex;
+}
+
+.search-box{
+ 
+border: rgb(31, 155, 7) solid 2px ;
+
+padding: 20%;
+
+display: block;
+outline: none;
+background: none;
+padding: 20px;
+
+background-color: white;
+
+border-radius: 8px;
+font-size: 20px;
+font-weight: 300;
+
+height: 50px;
+
+}
+.search-box:hover{
+  box-shadow: 5px 5px 5px 5px green, -5px -5px 5px 5px green;
+}
+form button {
+  color: black;
+  background: #f7fffe;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 40px;
+  border-radius: 10px;
+  height: 50px;
+}
+form button:hover {
+  background: green;
+  color: white;
+}
+
+.results{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+  
+}
+.result{
+width: 33.33%;
+padding: 15px;
+display: flex;
+flex-direction: column; 
+min-width: 250px;
+cursor: pointer;
+}
+.result h3{
+  color: #f7fffe;
+  font-size: 20px ;
+  font-weight: 600;
+  padding: 10px;
+  background: #445566;
+  
+}
+.result img{
+  display: block;
+  width: 100%;
+}
+.result h3:hover{
+  background: #f7fffe;
+  color: black;
+}
+.big-container{
+  visibility: visible;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  
+
+}.no-container{
+  visibility: hidden;
+}
+.opis{
+  
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%;
+}
+.opis h1{
+  margin-bottom: 20px;
+}
+.slika-opis{
+  display: flex;
+  margin-top: 40px;
+  width: 80%;
+  
+}
+.slika-opis p{
+  margin: 50px;
+  
+  
+  font-size: 20px ; 
+  width: 50%;
+}
+.dugme{
+  width: 100px;
+  height: 40px;
+  background: #0557b4 ; 
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+
+}
+.dugme:hover{
+  color: black;
+  background: blueviolet;
+}
+h1{
+  color: white;
+}
